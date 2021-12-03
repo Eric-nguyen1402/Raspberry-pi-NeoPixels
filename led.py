@@ -58,8 +58,6 @@ class Neo_pixel:
 
 
     def action(self):
-       
-        while True:
             try:
             # queries for retrievint all rows
                 self.connection = pymysql.connect(
